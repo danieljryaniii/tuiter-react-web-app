@@ -1,7 +1,7 @@
-## Name: Daniel Ryan
-# Email: ryan.dani@northeastern.edu
+#### Name: Daniel Ryan
+#### Email: ryan.dani@northeastern.edu
 
-# tuiter-react-web-app"
+# tuiter-react-web-app
 
 # Getting Started with Create React App
 
