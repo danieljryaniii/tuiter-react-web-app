@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Account</title>
+</head>
+<body>
+    <a href="index.html">Back</a>
+    <h1>Account</h1>
+
+    <form action="index.html">
+      <label for="full-name">Name:</label><br/>
+      <input
+        id="full-name"
+        type="text"
+        title="Enter your first name and last name"
+        placeholder="John Doe"
+        value="Alice Wonderland"
+      />
+      <br/><br/>
+
+      <label for="email">Email:</label><br/>
+      <input
+        id="email"
+        type="email"
+        title="Enter your valid email address"
+        placeholder="alice@wonderland.com"
+        value="alice@wonderland.com"
+      />
+      <br/><br/>
+
+      Password:<br/>
+      <input
+        type="password"
+        placeholder="Enter Your Password"
+      />
+      <br/><br/>
+
+      Date of Birth:<br/>
+      <input
+        type="date"
+      />
+      <br/><br/>
+
+      Salary:<br/>
+      <input
+        type="number"
+        min="100"
+        max="1000"
+      />
+      <br/><br/>
+
+      <label for="bio">Biography:</label><br/>
+      <textarea
+          id="bio"
+          rows="10"
+          cols="40"
+          placeholder="Tell us about yourself!"
+      ></textarea>
+
+      <br/><br/>
+
+      Tenured:<br/>
+      <input
+        checked
+        type="radio"
+        name="tenured"
+      /> Yes - Select if you are tenured
+      <br/>
+      <input
+        type="radio"
+        name="tenured"
+      /> No - Select if you are not tenured
+
+      <br/><br/>
+
+      Married:<br/>
+      <input
+              type="radio"
+              name="married"
+      /> Yes
+      <br/>
+      <input
+              checked
+              type="radio"
+              name="married"
+      /> No
+
+      <br/><br/>
+
+      Courses:<br/>
+      <input
+              type="checkbox"
+              name="courses"
+      />CS4550
+      <br/>
+      <input
+              type="checkbox"
+              name="courss"
+      />CS5610
+      <br/>
+      <input
+              type="checkbox"
+              name="courses"
+      />CS5500
+      <br/>
+      <input
+              type="checkbox"
+              name="courses"
+      />CS5200
+
+      <br/><br/>
+
+      Favorite Genre:<br/>
+      <select>
+        <option value="DRAMA">Drama</option>
+        <option value="HORROR">Horror</option>
+        <option selected value="COMEDY">Comedy</option>
+      </select>
+
+      <button>Submit</button>
+    </form>
+
+</body>
+</html>
