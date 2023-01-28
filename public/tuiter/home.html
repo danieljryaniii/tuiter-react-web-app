@@ -19,28 +19,31 @@
 
     <!-- Tuit text -->
     <form id="home-tuit-text">
-            <textarea cols="18"
+            <textarea name="tuit-content"
+                      cols="18"
                       rows="3"
                       placeholder="What's happening?"></textarea>
+
+        <br/>
+
+        <!-- Dropdown menu for tuit visibility -->
+        <select name="tuit-visibility">
+            <option selected value="EVERYONE">Everyone can reply</option>
+            <option value="FOLLOWING">People you follow</option>
+            <option value="MENTIONED">Only people you mention</option>
+        </select>
+
+        <hr/>
+
+        <!-- File upload / Post Tuit -->
+        <input name="tuit-file" type="file"/>
+        <button type="button">Tuit</button>
     </form>
-
-    <!-- Dropdown menu for tuit visibility -->
-    <select id="home-tuit-options">
-        <option selected value="EVERYONE">Everyone can reply</option>
-        <option value="FOLLOWING">People you follow</option>
-        <option value="MENTIONED">Only people you mention</option>
-    </select>
-
-    <hr/>
-
-    <!-- File upload / Post Tuit -->
-    <input id="home-tuit-file" type="file"/>
-    <button id="home-tuit-post">Tuit</button>
 
     <hr/>
 
     <!-- Tuit Feed -->
-    <ul id="tuit-feed">
+    <ul>
         <li>
             <!-- Tuit Link -->
             <a href="topic.html">Topic 123</a><br/>
@@ -49,8 +52,8 @@
             <img src="images/home_feed_user1_avatar.jpeg"
                  height="48px"
                  width="48px"/>
-            <a href="profile.html">Alice</a>
-            @alice - 2h
+            <a href="profile.html">Wall Street Journal</a>
+            @wsj - 2h
             <br/>
 
             <!-- Tuit post content -->
@@ -79,8 +82,8 @@
             <img src="images/home_feed_user2_avatar.png"
                  height="48px"
                  width="48px"/>
-            <a href="profile.html">Bob</a>
-            @bob - 4h
+            <a href="profile.html">TechCrunch</a>
+            @techcrunch - 4h
             <br/>
 
             <!-- Tuit post content -->
