@@ -1,0 +1,25 @@
+:root {
+    --wd-dark-gray: rgb(47, 51, 54);
+    --wd-dim-gray: rgb(110, 118, 125);
+    --tuit-blue: rgb(29, 161, 242);
+}
+
+/* Background color on all pages is black */
+body {
+    background-color: black;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Dimensions */
+.wd-width-10pc {
+    width: 10%;
+}
+
+.wd-width-90pc {
+    width: 90%;
+}
+
+/* Coloring */
+.wd-fg-color-white {
+    color: white;
+}
