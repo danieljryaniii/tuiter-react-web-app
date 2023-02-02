@@ -110,7 +110,7 @@ body {
 }
 
 .wd-trending-col-left {
-    disfplay: lex;
+    display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;

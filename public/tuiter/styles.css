@@ -23,3 +23,11 @@ body {
 .wd-fg-color-white {
     color: white;
 }
+
+.wd-fg-color-red {
+    color: red;
+}
+
+.wd-circle-image {
+    border-radius: 50%;
+}

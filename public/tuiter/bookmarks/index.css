@@ -1,0 +1,89 @@
+body {
+    color: var(--wd-dim-gray);
+}
+
+.wd-bookmarks-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.wd-bookmarks-col {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.wd-bookmarks-header-right-col {
+    display: flex;
+    flex-direction: column;
+    width: 20px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.wd-bookmarks-content-left-col {
+    display: flex;
+    flex-direction: column;
+    width: 48px;
+    align-items: flex-start;
+}
+
+.wd-ellipse-icon {
+    color: var(--tuit-blue);
+}
+
+.wd-header {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.wd-handle {
+    font-size: 13px;
+}
+
+.wd-user-avatar {
+    width: 48px;
+    height: 48px;
+}
+
+.wd-user-name {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.wd-content-handle {
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.wd-post-date {
+    font-size: 15px;
+}
+
+.wd-main-content {
+    max-width: 506px;
+    color: white;
+    font-size: 15px;
+}
+
+.wd-linked-image {
+    width: 504px;
+    height: 264px;
+    border-radius: 15px 15px 0 0;
+}
+
+.wd-fg-color-dim-gray {
+    color: var(--wd-dim-gray);
+}
+
+.wd-space-between {
+    justify-content: space-between;
+}
+
+.wd-content-width {
+    width: 504px;
+}
