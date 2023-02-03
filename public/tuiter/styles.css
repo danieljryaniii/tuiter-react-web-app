@@ -2,6 +2,7 @@
     --wd-dark-gray: rgb(47, 51, 54);
     --wd-dim-gray: rgb(110, 118, 125);
     --tuit-blue: rgb(29, 161, 242);
+    --border-dark-gray: rgb(47, 51, 54);
 }
 
 body {
@@ -10,6 +11,7 @@ body {
     background-color: black;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0px;
+    margin-top: 1px;
 }
 
 a {
@@ -42,11 +44,20 @@ a {
 }
 
 .wd-border-all {
-    border: 1px solid var(--wd-dim-gray);
+    border: 1px solid var(--border-dark-gray);
+}
+
+.wd-border-top-left-right {
+    border-left: 1px;
+    border-right: 1px;
+    border-top: 1px;
+    border-bottom: 0px;
+    border-style: solid;
+    border-color: var(--border-dark-gray);
 }
 
 .wd-border-bottom {
-    border-bottom: 1px solid var(--wd-dim-gray);
+    border-bottom: 1px solid var(--border-dark-gray);
 }
 
 /* Dimensions */
@@ -130,6 +141,10 @@ a {
     padding-bottom: 12px;
 }
 
+.wd-padding-bottom-20 {
+    padding-bottom: 20px;
+}
+
 .wd-padding-all-12 {
     padding: 12px;
 }
@@ -168,6 +183,10 @@ a {
 
 .wd-margin-bottom-2px {
     margin-bottom: 2px;
+}
+
+.wd-margin-top-1px {
+    margin-top: 1px;
 }
 
 .wd-padding-top-12 {
@@ -248,6 +267,9 @@ a {
 
 .wd-bg-color-dark-gray {
     background-color: var(--wd-dark-gray);
+}
+.wd-border-color-dim-gray {
+    border-color: var(--border-dark-gray);
 }
 
 /* Fonts */

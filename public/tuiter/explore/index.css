@@ -22,7 +22,7 @@
     border-bottom-color: black;
     color: var(--wd-dim-gray);
     font-weight: bold;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .wd-navigation .wd-link:nth-child(1) {
@@ -42,13 +42,13 @@
 .wd-explore-trending {
     font-size: 13px;
     color: var(--wd-dim-gray);
-    border-bottom: thin solid var(--wd-dim-gray);
+    border-bottom: thin solid var(--border-dark-gray);
 }
 
 .wd-explore-recommendations {
     font-size: 13px;
     color: var(--wd-dim-gray);
-    border-bottom: thin solid var(--wd-dim-gray);
+    border-bottom: thin solid var(--border-dark-gray);
 }
 
 .wd-explore-row-image {
@@ -74,7 +74,7 @@
 }
 
 .wd-explore-content-margin {
-    margin-bottom: 3px;
+    margin-bottom: 6px;
 }
 
 .wd-explore-content-handle {
