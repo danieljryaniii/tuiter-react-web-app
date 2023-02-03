@@ -6,8 +6,15 @@
 
 /* Background color on all pages is black */
 body {
+    display: flex;
+    justify-content: center;
     background-color: black;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 /* Dimensions */
