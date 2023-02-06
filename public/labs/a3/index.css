@@ -567,50 +567,93 @@ p#id-selector-2 {
 
 @media (min-width: 0px)
    and (max-width: 600px) {
-  .rule1 {
-    background-color: yellow;
-    font-size: 20px;
-    color: black;
-  }
-  .rule1 > h3 {
-    color: green;
-    font-size: 30px;
-  }
-  .media-query {
+.rule1 {
+    border-style: dotted;
+    border-width: 5px;
+    border-color: black;
     background-color: orange;
+    color: #7070ff;
+    font-size: 20px;
+    }
+.rule1 > h3 {
+    border-style: solid;
+    border-width: 5px;
+    border-color: gray;
+    background-color: blue;
     color: red;
-  }
+    font-size: 40px;
+    }
+.rule1 p {
+    display: none;
+}
 }
 
 @media (min-width: 600px)
    and (max-width: 1200px) {
   .rule1 {
-    background-color: black;
-    font-size: 25px;
-    color: pink;
+    border-style: dotted;
+    border-width: 10px;
+    border-color: gray;
+    background-color: blue;
+    color: red;
+    font-size: 60px;
   }
   .rule1 > h3 {
-    color: blue;
-    font-size: 50px;
-  }
-  .media-query {
-    background-color: black;
-    color: white;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    background-color: orange;
+    color: #7070ff;
+    font-size: 40px;
   }
 }
 
 @media (min-width: 1200px)
    and (max-width: 1800px) {
   .rule1 {
-    background-color: gray;
+    border-style: solid;
+    border-width: 20px;
+    border-color: black;
+    background-color: orange;
+    color: #7070ff;
     font-size: 50px;
   }
   .rule1 > h3 {
+    border-style: dotted;
+    border-width: 20px;
+    border-color: gray;
+    background-color: blue;
     color: red;
     font-size: 75px;
   }
-  .media-query {
-    background-color: black;
+}
+
+
+@media (min-width: 0px)
+   and (max-width: 600px) {
+.rule2 .flex-box-2-main {
+    display: none;
+}
+.rule2 .flex-box-3-main {
+    display: none;
+}
+}
+
+@media (min-width: 600px)
+   and (max-width: 1200px) {
+    .rule2 .flex-box-3-main {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px)
+   and (max-width: 1800px) {
+  .rule2 .flex-box-1-main{
+    background-color: green;
     color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    padding-top: 20px;
   }
 }
