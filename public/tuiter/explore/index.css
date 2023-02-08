@@ -1,90 +1,99 @@
-.wd-search-icon-nudge {
-    left: 1rem;
-    top: 1.1rem;
+:root {
+    --wd-dark-gray: rgb(47, 51, 54);
+    --wd-dim-gray: rgb(110, 118, 125);
+    --wd-tuit-blue: rgb(29, 161, 242);
+    --wd-border-dark-gray: rgb(47, 51, 54);
 }
 
-.wd-navigation {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 1px;
-    padding: 0px;
-    margin-bottom: 0px;
-    list-style: none;
-    color: white;
+img {
+    width: 100%;
 }
 
-.wd-navigation > *{
-    margin-bottom: 0px;
-    padding-bottom: 16px;
-    border-bottom-style: solid;
-    border-bottom-width: medium;
-    border-bottom-color: black;
+.wd-text-tuit-blue {
+    color: var(--wd-tuit-blue);
+}
+
+.wd-text-dark-gray {
+    color: var(--wd-dark-gray);
+}
+
+.wd-avatar-image {
+    width: 48px;
+    height: 48px;
+}
+
+.wd-img-circle {
+    border-radius: 50%;
+}
+
+.wd-content-image {
+    width: 85px;
+    height: 85px;
+    border-radius: 15px;
+}
+
+/* --------------------------------------------------- */
+/* Overrides for the search bar                        */
+/* --------------------------------------------------- */
+.search-bar-input > .input-group >.input-group-text {
+    border: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.search-bar-input > .input-group > .form-control {
+    border: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: none;
+}
+
+.search-bar-input {
+    border: solid 1px lightgray;
+    border-radius: 20px;
+}
+
+.search-bar-input:focus-within {
+    box-shadow: 0 0 0 0.10rem var(--wd-tuit-blue);
+    border-radius: 20px;
+}
+
+/* --------------------------------------------------- */
+/* Overrides for the nav bar                           */
+/* --------------------------------------------------- */
+.navigation-main .nav-link.active {
     color: var(--wd-dim-gray);
-    font-weight: bold;
-    font-size: 15px;
 }
 
-.wd-navigation .wd-link:nth-child(1) {
-    color: var(--tuit-blue);
-    border-bottom-color: var(--tuit-blue);
+/* --------------------------------------------------- */
+/* Overrides for icon stacking                         */
+/* --------------------------------------------------- */
+.fa-stack {
+    width: 1em;
+    height: 1em;
+    line-height: 1em;
 }
 
-.wd-page-break {
-    margin: 0px;
-    height: .75rem;
-    background-color: var(--wd-dark-gray);
-    border-width: .1rem 0 .1rem 0;
-    border-color: var(--wd-dim-gray);
-    border-style: solid;
+.fa-stack-2x {
+    font-size: 1em;
 }
 
-.wd-explore-trending {
-    font-size: 13px;
-    color: var(--wd-dim-gray);
-    border-bottom: thin solid var(--border-dark-gray);
+/* --------------------------------------------------- */
+/* Overrides for card and overlay                      */
+/* --------------------------------------------------- */
+.card-img-overlay {
+    border: 0px;
 }
 
-.wd-explore-recommendations {
-    font-size: 13px;
-    color: var(--wd-dim-gray);
-    border-bottom: thin solid var(--border-dark-gray);
+.feature-photo > .card {
+    border: 0px;
 }
 
-.wd-explore-row-image {
-    border-radius: 20%;
-    object-fit: cover;
+.feature-photo > .card > .card-img {
+    border-radius: 0%;
 }
 
-.wd-trending-title {
-    color: white;
-    font-weight: bold;
-    font-size: 14px;
+.feature-photo > .card > .card-img-overlay {
+    top: unset;
 }
 
-.wd-padding-left-right-16 {
-    padding-left: 16px;
-    padding-right: 16px;
-}
-
-.wd-padding-all-16 {
-    padding: 16px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-}
-
-.wd-explore-content-margin {
-    margin-bottom: 6px;
-}
-
-.wd-explore-content-handle {
-    color: white;
-    font-weight: bold;
-}
-
-.wd-explore-content-main {
-    color: white;
-    font-weight: bold;
-    font-size: 14px;
-    margin-right: 40px;
-}

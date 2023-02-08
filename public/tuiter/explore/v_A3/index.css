@@ -1,0 +1,90 @@
+.wd-search-icon-nudge {
+    left: 1rem;
+    top: 1.1rem;
+}
+
+.wd-navigation {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1px;
+    padding: 0px;
+    margin-bottom: 0px;
+    list-style: none;
+    color: white;
+}
+
+.wd-navigation > *{
+    margin-bottom: 0px;
+    padding-bottom: 16px;
+    border-bottom-style: solid;
+    border-bottom-width: medium;
+    border-bottom-color: black;
+    color: var(--wd-dim-gray);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.wd-navigation .wd-link:nth-child(1) {
+    color: var(--tuit-blue);
+    border-bottom-color: var(--tuit-blue);
+}
+
+.wd-page-break {
+    margin: 0px;
+    height: .75rem;
+    background-color: var(--wd-dark-gray);
+    border-width: .1rem 0 .1rem 0;
+    border-color: var(--wd-dim-gray);
+    border-style: solid;
+}
+
+.wd-explore-trending {
+    font-size: 13px;
+    color: var(--wd-dim-gray);
+    border-bottom: thin solid var(--border-dark-gray);
+}
+
+.wd-explore-recommendations {
+    font-size: 13px;
+    color: var(--wd-dim-gray);
+    border-bottom: thin solid var(--border-dark-gray);
+}
+
+.wd-explore-row-image {
+    border-radius: 20%;
+    object-fit: cover;
+}
+
+.wd-trending-title {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.wd-padding-left-right-16 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.wd-padding-all-16 {
+    padding: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.wd-explore-content-margin {
+    margin-bottom: 6px;
+}
+
+.wd-explore-content-handle {
+    color: white;
+    font-weight: bold;
+}
+
+.wd-explore-content-main {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 40px;
+}
