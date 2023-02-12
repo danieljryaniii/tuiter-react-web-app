@@ -6,11 +6,16 @@
 
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
 	      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 	<script src="https://kit.fontawesome.com/378391378d.js" crossorigin="anonymous"></script>
 	<link href="index.css" rel="stylesheet"/>
 </head>
 
 <body>
+<!-- Back button (return to navigation) -->
+<a href="../../index.html">Back</a>
+
+
 <!-- Main Container -->
 <div class="container-xxl my-3">
 
@@ -18,310 +23,363 @@
 
 		<!-- Left Sidebar -->
 		<div class="col-2 col-lg-1 col-xl-2 text-center text-xl-start">
-			<div class="list-group">
-				<li class="list-group-item">
-					<i class="fa-brands fa-twitter"></i>
-				</li>
-				<a class="list-group-item list-group-item-action" href="#">
-					<i class="fa-solid fa-house-chimney"></i>
-					<span class="d-none d-xl-inline">Home</span>
-				</a>
-				<a class="list-group-item list-group-item-action active" href="#">
-					<i class="fa-solid fa-hashtag"></i>
-					<span class="d-none d-xl-inline">Explore</span>
-				</a>
-				<a class="list-group-item list-group-item-action" href="#">
-					<i class="fa-solid fa-bell"></i>
-					<span class="d-none d-xl-inline">Notifications</span>
-				</a>
-				<a class="list-group-item list-group-item-action" href="#">
-					<i class="fa-solid fa-envelope"></i>
-					<span class="d-none d-xl-inline">Messages</span>
-				</a>
-				<a class="list-group-item list-group-item-action" href="#">
-					<i class="fa-solid fa-bookmark"></i>
-					<span class="d-none d-xl-inline">Bookmarks</span>
-				</a>
-				<a class="list-group-item list-group-item-action" href="#">
-					<i class="fa-solid fa-list"></i>
-					<span class="d-none d-xl-inline">Lists</span>
-				</a>
-				<a class="list-group-item list-group-item-action" href="#">
-					<i class="fa-solid fa-user"></i>
-					<span class="d-none d-xl-inline">Profile</span>
-				</a>
-				<a class="list-group-item list-group-item-action" href="#">
+			<div class="left-sidebar">
+				<div class="list-group">
+					<li class="list-group-item">
+						<span class="wd-text-tuit-blue h1">&#116;</span>
+					</li>
+					<a class="list-group-item list-group-item-action" href="#">
+						<div class="row">
+							<div class="col-12 col-xl-2">
+								<i class="bi bi-house-door wd-font-1-1rem"></i>
+							</div>
+							<div class="col-10">
+								<span class="d-none d-xl-inline">Home</span>
+							</div>
+						</div>
+					</a>
+					<a class="list-group-item list-group-item-action active" href="#">
+						<div class="row">
+							<div class="col-12 col-xl-2">
+								<i class="fa-solid fa-hashtag"></i>
+							</div>
+							<div class="col-10">
+								<span class="d-none d-xl-inline">Explore</span>
+							</div>
+						</div>
+					</a>
+					<a class="list-group-item list-group-item-action" href="#">
+						<div class="row">
+							<div class="col-12 col-xl-2">
+								<i class="fa-regular fa-bell"></i>
+							</div>
+							<div class="col-10">
+								<span class="d-none d-xl-inline">Notifications</span>
+							</div>
+						</div>
+					</a>
+					<a class="list-group-item list-group-item-action" href="#">
+						<div class="row">
+							<div class="col-12 col-xl-2">
+								<i class="fa-regular fa-envelope"></i>
+							</div>
+							<div class="col-10">
+								<span class="d-none d-xl-inline">Messages</span>
+							</div>
+						</div>
+					</a>
+					<a class="list-group-item list-group-item-action" href="#">
+						<div class="row">
+							<div class="col-12 col-xl-2">
+								<i class="fa-regular fa-bookmark"></i>
+							</div>
+							<div class="col-10">
+								<span class="d-none d-xl-inline">Bookmarks</span>
+							</div>
+						</div>
+					</a>
+					<a class="list-group-item list-group-item-action" href="#">
+						<div class="row">
+							<div class="col-12 col-xl-2">
+								<i class="fa-solid fa-fire"></i>
+							</div>
+							<div class="col-10">
+								<span class="d-none d-xl-inline">Top Articles</span>
+							</div>
+						</div>
+					</a>
+					<a class="list-group-item list-group-item-action" href="#">
+						<div class="row">
+							<div class="col-12 col-xl-2">
+								<i class="fa-regular fa-user"></i>
+							</div>
+							<div class="col-10">
+								<span class="d-none d-xl-inline">Profile</span>
+							</div>
+						</div>
+					</a>
+					<a class="list-group-item list-group-item-action" href="#">
+						<div class="row">
+							<div class="col-12 col-xl-2">
 					<span class="fa-stack">
-						<i class="fa-solid fa-circle fa-stack-2x"></i>
-						<i class="fa-solid fa-ellipsis fa-stack-1x fa-inverse"></i>
+						<i class="fa-regular fa-circle fa-stack-2x"></i>
+						<i class="fa-solid fa-ellipsis fa-stack-1x"></i>
 					</span>
-					<span class="d-none d-xl-inline">More</span>
-				</a>
+							</div>
+							<div class="col-10">
+								<span class="d-none d-xl-inline">More</span>
+							</div>
+						</div>
+					</a>
 
-				<button type="button" class="btn btn-primary mt-2 rounded-pill">Tuit</button>
+					<button type="button" class="btn btn-primary mt-2 rounded-pill py-2">Tuit</button>
+				</div>
 			</div>
 		</div>
 
 		<!-- Main Content -->
 		<div class="col-10 col-lg-7 col-xl-6">
-
-			<!-- Search and Settings-->
-			<div class="row align-items-center m-0">
-				<!-- Search Bar -->
-				<div class="col-11 px-0">
-					<div class="search-bar-input">
-						<div class="input-group">
-							<span class="input-group-text bg-white"
+			<div class="wd-main-content">
+				<!-- Search and Settings-->
+				<div class="row align-items-center m-0 px-4">
+					<!-- Search Bar -->
+					<div class="col-11 px-0">
+						<div class="search-bar-input">
+							<div class="input-group">
+							<span class="input-group-text"
 							      id="search-bar-icon">
 									<label id="search-bar-label"
 									       for="search-bar">
 										<i class="fa-solid fa-magnifying-glass text-dark"></i>
 									</label>
 							</span>
-							<input type="text"
-							       id="search-bar"
-							       class="form-control"
-							       placeholder="Search Tuiter"
-							       aria-describedby="search-bar-icon"/>
+								<input type="text"
+								       id="search-bar"
+								       class="form-control"
+								       placeholder="Search Tuiter"
+								       aria-describedby="search-bar-icon"/>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-1 text-end px-0">
+						<i class="bi bi-gear text-black h5"></i>
+					</div>
+				</div>
+
+				<!-- Nav Bar -->
+				<div class="navigation-main">
+					<ul class="nav mt-2 justify-content-around">
+						<li class="nav-item">
+							<a class="nav-link active" href="for-you.html">For you</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="trending.html">Trending</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="news.html">News</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="Sports.html">Sports</a>
+						</li>
+						<li class="d-none d-md-block nav-item">
+							<a class="nav-link" href="entertainment.html">Entertainment</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="feature-photo mt-1">
+					<div class="card text-bg-dark">
+						<img class="card-img" src="../images/aus-open.jpeg"/>
+						<div class="card-img-overlay p-2">
+							<h6 class="card-title m-0">Tennis Tournament · LIVE</h6>
+							<h2 class="card-title m-0 fw-bolder">Australian Open 2023</h2>
 						</div>
 					</div>
 				</div>
 
-				<div class="col-1 text-end px-0">
-					<i class="fa-solid fa-gear fa-xl text-primary"></i>
-				</div>
-			</div>
+				<!-- Featured Content -->
+				<ul class="list-group">
 
-			<!-- Nav Bar -->
-			<div class="navigation-main">
-				<ul class="nav nav-tabs mt-2">
-					<li class="nav-item">
-						<a class="nav-link active" href="for-you.html">For you</a>
+					<!-- List Item -->
+					<li class="list-group-item p-0">
+						<div class="d-flex mx-3 my-2 align-items-start">
+							<div class="flex-grow-1 me-3 wd-topic-gray">
+								Politics · Trending
+								<div class="fw-bold text-black">
+									Seizures
+								</div>
+								4,953 Tuits
+							</div>
+							<div class="flex-shrink-0">
+								<i class="fa-solid fa-ellipsis wd-color-light-gray"></i>
+							</div>
+						</div>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="trending.html">Trending</a>
+
+					<!-- List Item -->
+					<li class="list-group-item p-0">
+						<div class="d-flex mx-3 my-2 align-items-start">
+							<div class="flex-grow-1 me-3 text-black fw-bold">
+								#InfinityPool
+								<div class="wd-topic-gray fw-normal">
+									See the electrifying thriller Infinity Pool in theatres - if you dare
+									<div class="wd-font-0-75rem">
+										<i class="fa-solid fa-square-arrow-up-right"></i>
+										Promoted by NEON
+									</div>
+								</div>
+							</div>
+							<div class="flex-shrink-0">
+								<i class="fa-solid fa-ellipsis wd-color-light-gray"></i>
+							</div>
+						</div>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="news.html">News</a>
+
+					<!-- List Item -->
+					<li class="list-group-item p-0">
+						<div class="d-flex mx-3 my-2 align-items-start">
+							<div class="flex-grow-1 me-3 wd-topic-gray">
+								Sports · Trending
+								<div class="fw-bold text-black">
+									RIP Bean
+								</div>
+								18K Tuits
+							</div>
+							<div class="flex-shrink-0">
+								<i class="fa-solid fa-ellipsis wd-color-light-gray"></i>
+							</div>
+						</div>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="Sports.html">Sports</a>
+
+					<!-- List Item -->
+					<li class="list-group-item p-0">
+						<div class="d-flex mx-3 my-2 align-items-start">
+							<div class="flex-grow-1 me-3 wd-topic-gray">
+								Politics · Trending
+								<div class="fw-bold text-black">
+									Durham
+								</div>
+								Trending with <span class="wd-text-tuit-blue">Barr, Barr</span>
+							</div>
+							<div class="flex-shrink-0">
+								<i class="fa-solid fa-ellipsis wd-color-light-gray"></i>
+							</div>
+						</div>
 					</li>
-					<li class="d-none d-md-block nav-item">
-						<a class="nav-link" href="entertainment.html">Entertainment</a>
+
+					<!-- List Item -->
+					<li class="list-group-item p-0">
+						<div class="d-flex mx-3 my-2 align-items-start">
+							<div class="flex-grow-1 me-3 wd-topic-gray">
+								Trending in Business and finance
+								<div class="fw-bold text-black">
+									#DirectedEvolution
+								</div>
+								172K Tuits
+							</div>
+							<div class="flex-shrink-0">
+								<i class="fa-solid fa-ellipsis wd-color-light-gray"></i>
+							</div>
+						</div>
 					</li>
 				</ul>
 			</div>
-
-			<div class="feature-photo mt-2">
-				<div class="card text-bg-dark">
-					<img class="card-img" src="../images/starship.jpeg"/>
-					<div class="card-img-overlay p-2">
-						<h1 class="card-title m-0">Space X's Starship</h1>
-					</div>
-				</div>
-			</div>
-
-			<!-- Featured Content -->
-			<ul class="list-group">
-
-				<!-- List Item -->
-				<li class="list-group-item p-0">
-					<div class="d-flex mx-3 my-2 align-items-start">
-						<div class="flex-grow-1 me-3">
-							Web Development
-							<div class="fw-bold">
-								ReactJS
-								<i class="fa fa-check-circle"></i>
-								<span class="fw-normal">- 2h</span>
-							</div>
-							<div class="fw-bold">
-								React.js is a component based front end library that makes it
-								very easy to build Single Page Applications or SPAs
-							</div>
-						</div>
-						<div class="flex-shrink-0">
-							<img class="wd-content-image" src="../images/react.jpeg"/>
-						</div>
-					</div>
-				</li>
-
-				<!-- List Item -->
-				<li class="list-group-item p-0">
-					<div class="d-flex mx-3 my-2 align-items-start">
-						<div class="flex-grow-1 me-3">
-							<div class="fw-bold">
-								JavaScript
-								<i class="fa fa-check-circle"></i>
-								<span class="fw-normal">- 2h</span>
-							</div>
-							<div class="fw-bold">
-								JavaScript is a programming language that can run on
-								browsers as well as desktops
-							</div>
-							123K Tweets
-						</div>
-
-						<div class="flex-shrink-0">
-							<img class="wd-content-image" src="../images/js.jpeg"/>
-						</div>
-					</div>
-				</li>
-
-				<!-- List Item -->
-				<li class="list-group-item p-0">
-					<div class="d-flex mx-3 my-2 align-items-start">
-						<div class="flex-grow-1 me-3">
-							Web Development
-							<div class="fw-bold">
-								JQuery
-								<i class="fa fa-check-circle"></i>
-							</div>
-							123K Tweets
-						</div>
-						<div class="flex-shrink-0">
-							<img class="wd-content-image" src="../images/jquery.jpeg"/>
-						</div>
-					</div>
-				</li>
-
-				<!-- List Item -->
-				<li class="list-group-item p-0">
-					<div class="d-flex mx-3 my-2 align-items-start">
-						<div class="flex-grow-1 me-3">
-							Web Development
-							<div class="fw-bold">
-								NodeJS
-								<i class="fa fa-check-circle"></i>
-								<span class="fw-normal">- 2h</span>
-							</div>
-							123K Tweets
-						</div>
-						<div class="flex-shrink-0">
-							<img class="wd-content-image" src="../images/nodejs.jpeg"/>
-						</div>
-					</div>
-				</li>
-			</ul>
-
 		</div>
 
 
 		<!-- Right Sidebar -->
 		<div class="d-none d-lg-block col-lg-4">
-			<ul class="list-group">
-				<!-- Main Header -->
-				<li class="list-group-item">
-					<span class="fw-bold">Who to Follow</span>
-				</li>
+			<div class="right-sidebar">
+				<ul class="list-group rounded-4">
+					<!-- Main Header -->
+					<li class="list-group-item">
+						<span class="fw-bolder h5">Who to Follow</span>
+					</li>
 
-				<!-- List Item -->
-				<li class="list-group-item container">
-					<div class="row align-items-center m-0">
-						<div class="col-2 p-0">
-							<img class="wd-avatar-image wd-img-circle" src="../images/java_logo.jpeg"/>
-						</div>
-						<div class="col-7 px-1">
+					<!-- List Item -->
+					<li class="list-group-item container">
+						<div class="row align-items-center m-0">
+							<div class="col-2 p-0">
+								<img class="wd-avatar-image wd-img-circle" src="../images/java_logo.jpeg"/>
+							</div>
+							<div class="col-7 px-1">
 							<span class="fw-bold">
 								Java
-								<i class="fa fa-check-circle"></i>
+								<i class="bi bi-patch-check-fill wd-text-tuit-blue"></i>
 							</span>
-							<div class="wd-text-dark-gray">
-								@Java
+								<div class="wd-text-dark-gray">
+									@Java
+								</div>
+							</div>
+							<div class="col-3 text-end p-0">
+								<button type="button" class="btn btn-dark rounded-pill">Follow</button>
 							</div>
 						</div>
-						<div class="col-3 text-end p-0">
-							<button type="button" class="btn btn-primary rounded-pill">Follow</button>
-						</div>
-					</div>
-				</li>
+					</li>
 
-				<!-- List Item -->
-				<li class="list-group-item container">
-					<div class="row align-items-center m-0">
-						<div class="col-2 p-0">
-							<img class="wd-avatar-image wd-img-circle" src="../images/r_space.jpeg"/>
-						</div>
-						<div class="col-7 px-1">
+					<!-- List Item -->
+					<li class="list-group-item container">
+						<div class="row align-items-center m-0">
+							<div class="col-2 p-0">
+								<img class="wd-avatar-image wd-img-circle" src="../images/r_space.jpeg"/>
+							</div>
+							<div class="col-7 px-1">
 							<span class="fw-bold">
 								Relativity Space
-								<i class="fa fa-check-circle"></i>
+								<i class="bi bi-patch-check-fill wd-text-tuit-blue"></i>
 							</span>
-							<div class="wd-text-dark-gray">
-								@relativityspace
+								<div class="wd-text-dark-gray">
+									@relativityspace
+								</div>
+							</div>
+							<div class="col-3 text-end p-0">
+								<button type="button" class="btn btn-dark rounded-pill">Follow</button>
 							</div>
 						</div>
-						<div class="col-3 text-end p-0">
-							<button type="button" class="btn btn-primary rounded-pill">Follow</button>
-						</div>
-					</div>
-				</li>
+					</li>
 
-				<!-- List Item -->
-				<li class="list-group-item container">
-					<div class="row align-items-center m-0">
-						<div class="col-2 p-0">
-							<img class="wd-avatar-image wd-img-circle" src="../images/v_galactic.jpeg"/>
-						</div>
-						<div class="col-7 px-1">
+					<!-- List Item -->
+					<li class="list-group-item container">
+						<div class="row align-items-center m-0">
+							<div class="col-2 p-0">
+								<img class="wd-avatar-image wd-img-circle" src="../images/v_galactic.jpeg"/>
+							</div>
+							<div class="col-7 px-1">
 							<span class="fw-bold">
 								Virgin Galactic
-								<i class="fa fa-check-circle"></i>
+								<i class="bi bi-patch-check-fill wd-text-gold"></i>
 							</span>
-							<div class="wd-text-dark-gray">
-								@virgingalactic
+								<div class="wd-text-dark-gray">
+									@virgingalactic
+								</div>
+								<div class="wd-text-dark-gray wd-font-0-75rem">
+									<i class="fa-solid fa-square-arrow-up-right"></i>
+									Promoted
+								</div>
+							</div>
+							<div class="col-3 text-end p-0">
+								<button type="button" class="btn btn-dark rounded-pill">Follow</button>
 							</div>
 						</div>
-						<div class="col-3 text-end p-0">
-							<button type="button" class="btn btn-primary rounded-pill">Follow</button>
-						</div>
+					</li>
+					<li class="list-group-item">
+						<a class="list-group-item list-group-item-action text-primary" href="#">Show more</a>
+					</li>
+				</ul>
+			</div>
+			<div class="container py-3">
+				<div class="row">
+					<div class="d-flex gap-3">
+						<div class="wd-font-0-90rem wd-color-light-gray">Terms of Service</div>
+						<div class="wd-font-0-90rem wd-color-light-gray">Privacy Policy</div>
+						<div class="wd-font-0-90rem wd-color-light-gray">Cookie Policy</div>
 					</div>
-				</li>
+				</div>
 
-				<!-- List Item -->
-				<li class="list-group-item container">
-					<div class="row align-items-center m-0">
-						<div class="col-2 p-0">
-							<img class="wd-avatar-image wd-img-circle" src="../images/nasa.jpeg"/>
-						</div>
-						<div class="col-7 px-1">
-							<span class="fw-bold">
-								NASA
-								<i class="fa fa-check-circle"></i>
-							</span>
-							<div class="wd-text-dark-gray">
-								@NASA
-							</div>
-						</div>
-						<div class="col-3 text-end p-0">
-							<button type="button" class="btn btn-primary rounded-pill">Follow</button>
+				<div class="row">
+					<div class="d-flex gap-3 align-items-center">
+						<div class="wd-font-0-90rem wd-color-light-gray">Accessibility</div>
+						<div class="wd-font-0-90rem wd-color-light-gray">Ads Info</div>
+						<div class="wd-font-0-90rem wd-color-light-gray">
+							More
+							<i class="fa-solid fa-ellipsis wd-color-light-gray"></i>
 						</div>
 					</div>
-				</li>
+				</div>
 
-				<!-- List Item -->
-				<li class="list-group-item container">
-					<div class="row align-items-center m-0">
-						<div class="col-2 p-0">
-							<img class="wd-avatar-image wd-img-circle" src="../images/tesla.jpeg"/>
-						</div>
-						<div class="col-7 px-1">
-							<span class="fw-bold">
-								Tesla
-								<i class="fa fa-check-circle"></i>
-							</span>
-							<div class="wd-text-dark-gray">
-								@Tesla
-							</div>
-						</div>
-						<div class="col-3 text-end p-0">
-							<button type="button" class="btn btn-primary rounded-pill">Follow</button>
+				<div class="row">
+					<div class="d-flex align-items-center">
+						<div class="wd-font-0-90rem wd-color-light-gray">
+							<i class="fa-regular fa-copyright"></i>
+							2023 Tuiter, Inc.
 						</div>
 					</div>
-				</li>
-			</ul>
+				</div>
+			</div>
 		</div>
 	</div>
+</div>
 
 </div>
 

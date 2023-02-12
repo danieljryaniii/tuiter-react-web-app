@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+
+  <h1>Javascript</h1>
+
+  <input placeholder="A" id="A"/>
+  <input placeholder="B" id="B"/>
+  <input placeholder="C" id="C"/>
+
+  <button id="addBtn" onclick="add()">Add</button>
+  <button id="subtractBtn">Subtract</button>
+
+  <script src="calculator.js"></script>
+
+  <!-- Strips loaded from browser is immediately evaluated -->
+  <!-- All Share Same Namespace (can create collisions - no overloading) -->
+  <!--
+    document = global entry point to browser API
+    jQuery = global entry point to jquery API
+        * Use CSS like index to grab and assign ex const $var = jQuery(#idName);
+        * use $ for variables -- alias = dollar sign
+        * All declarations are of type jQuery
+
+    * Modules exist in newer versions E5/6 onward
+    *`` backtick string "Template" string allows you to combine string and
+      non-string elements using ${} to identify expressions
+    * We generally want to inject the information into existing divs
+	* Putting scripts at the bottom is genearl practice to ensure the entire
+		DOM is loaded and all elements exist
+		* Scripts may also take a while
+
+	* jQuery abstracts away the code needed to check for which browser
+		vendor, etc. the code is running on
+		* Can connect using a bunch of CDNs hosted by Google, Microsoft, etc.
+
+  -->
+  <!--
+  <script>
+    alert("Hello");
+    const a = 23;
+    const b = 34;
+    const c = a + b;
+    document.write(c);
+
+    Function
+    function add(a, b) {
+      return a + b;
+    }
+
+    Example of template string
+    no concat needed - reduces number of errors
+    document.write(
+        `<h2>
+            a + b = ${add(10,10)}
+        </h2>`
+    )
+
+    const house = {
+      rooms: 3,
+      baths: 2,
+      sqft: 1500
+    }
+
+    document.write(`
+      <h1>JSON</h1>
+    `)
+  </script>
+  -->
+
+</body>
+</html>

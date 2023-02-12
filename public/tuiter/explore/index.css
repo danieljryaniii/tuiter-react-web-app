@@ -5,8 +5,32 @@
     --wd-border-dark-gray: rgb(47, 51, 54);
 }
 
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 img {
     width: 100%;
+}
+
+.wd-font-1-1rem {
+    font-size: 1.1rem;
+}
+
+.wd-font-0-75rem {
+    font-size: 0.75rem;
+}
+
+.wd-font-0-90rem {
+    font-size: .90rem;
+}
+
+.wd-color-light-gray {
+    color: #B5B5B5;
+}
+
+.wd-topic-gray {
+    color: #979797;
 }
 
 .wd-text-tuit-blue {
@@ -15,6 +39,10 @@ img {
 
 .wd-text-dark-gray {
     color: var(--wd-dark-gray);
+}
+
+.wd-text-gold {
+    color: gold;
 }
 
 .wd-avatar-image {
@@ -32,6 +60,11 @@ img {
     border-radius: 15px;
 }
 
+.wd-main-content {
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+
 /* --------------------------------------------------- */
 /* Overrides for the search bar                        */
 /* --------------------------------------------------- */
@@ -39,6 +72,8 @@ img {
     border: 0;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    background-color: #F5F5F5;
+    height: 2.5rem;
 }
 
 .search-bar-input > .input-group > .form-control {
@@ -46,6 +81,8 @@ img {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     box-shadow: none;
+    background-color: #F5F5F5;
+    height: 2.5rem;
 }
 
 .search-bar-input {
@@ -62,7 +99,17 @@ img {
 /* Overrides for the nav bar                           */
 /* --------------------------------------------------- */
 .navigation-main .nav-link.active {
-    color: var(--wd-dim-gray);
+    color: var(--wd-dark-gray);
+    border-bottom: 3px solid #0d6efd;
+}
+
+.navigation-main .nav-link {
+    font-weight: bold;
+    color: #979797;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 /* --------------------------------------------------- */
@@ -87,13 +134,70 @@ img {
 
 .feature-photo > .card {
     border: 0px;
+    border-radius: 0;
+    margin-bottom: 5px;
 }
 
 .feature-photo > .card > .card-img {
-    border-radius: 0%;
+    border-radius: 0;
+    height: 350px;
+    filter: brightness(50%);
 }
 
 .feature-photo > .card > .card-img-overlay {
     top: unset;
 }
 
+/* --------------------------------------------------- */
+/* Overrides for left sidebar                          */
+/* --------------------------------------------------- */
+.left-sidebar > .list-group {
+    border-color: white;
+    font-size: 18px;
+}
+
+.left-sidebar > .list-group > .list-group-item {
+    border-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.left-sidebar > .list-group > .list-group-item.active {
+    font-weight: bold;
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+
+/* --------------------------------------------------- */
+/* Overrides for right sidebar                         */
+/* --------------------------------------------------- */
+.right-sidebar > .list-group {
+    border-color: #F5F5F5;
+}
+
+.right-sidebar > .list-group > .list-group-item {
+    background-color: #F5F5F5;
+    border-color: #F5F5F5;
+}
+
+.right-sidebar > .list-group > .list-group-item:nth-child(1) {
+    padding-top: 12px;
+}
+
+.right-sidebar > .list-group > .list-group-item > .list-group-item-action {
+    background-color: #F5F5F5;
+    border-color: #F5F5F5;
+    padding-left: 0;
+}
+
+.wd-main-content .list-group-item {
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.btn-primary {
+    background-color: var(--wd-tuit-blue)
+}
