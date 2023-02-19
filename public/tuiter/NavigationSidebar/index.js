@@ -1,16 +1,16 @@
-const NavigationSidebar = () => {
+const NavigationSidebar = (active) => {
     return(`
         <div class="list-group">
             <a class="list-group-item" href="#">
                 <i class="fa-brands fa-twitter"></i>
             </a>
             <!--Home Button-->
-            <a class="list-group-item list-group-item-action" href="#">
+            <a class="list-group-item list-group-item-action ${active === 'home' ? 'active' : ''}" href="../home/index.html">
                 <i class="fa-solid fa-house-chimney"></i>
                 <span class="d-none d-xl-inline">Home</span>
             </a>
             <!--Explore Button-->
-            <a class="list-group-item list-group-item-action active" href="#">
+            <a class="list-group-item list-group-item-action ${active === 'explore' ? 'active' : ''}" href="../explore/index.html">
                 <i class="fa-solid fa-hashtag"></i>
                 <span class="d-none d-xl-inline">Explore</span>
             </a>

@@ -7,10 +7,9 @@ const exploreComponent = () => {
     return $exploreDiv.append(`
         <div class="row mx-0 mt-2">
             <div class="col-2 col-lg-1 col-xl-2 text-center text-xl-start">
-                ${NavigationSidebar()}
+                ${NavigationSidebar('explore')}
             </div>
-            <div class="col-10 col-lg-7 col-xl-6 bg-primary">
-                <h3>Explore Component</h3>
+            <div class="col-10 col-lg-7 col-xl-6">
                 ${ExploreComponent()}        
             </div>
             <div class="d-none d-lg-block col-lg-4">

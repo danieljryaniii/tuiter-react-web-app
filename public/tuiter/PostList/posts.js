@@ -1,0 +1,33 @@
+let posts = [
+    {
+        avatarIcon: "../images/nyt_logo.jpeg",
+        userName: "New York Times",
+        userHandle: "nytimes",
+        userVerified: true,
+        date: "Jan 1",
+        mainContent: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        linkedContentImage: "../images/nfl_general_explore_snip.png",
+        linkedContentHeader: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+        linkedContentBody: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        linkedContentLink: "rt.com",
+        comments: 22,
+        retuits: 9,
+        likes: 37,
+    },
+    {
+        avatarIcon: "../images/bb_logo.png",
+        userName: "Bloomberg Business",
+        userHandle: "bloomberg",
+        userVerified: true,
+        date: "Jul 31",
+        mainContent: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        linkedContentImage: "../images/bb_explore_snip.jpeg",
+        linkedContentHeader: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+        linkedContentBody: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        linkedContentLink: "rt.com",
+        comments: 100,
+        retuits: 50,
+        likes: 350,
+    },
+];
+export default posts;
