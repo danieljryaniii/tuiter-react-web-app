@@ -3,7 +3,7 @@ import PostItem from "./PostItem.js";
 
 const PostList = () => {
     return (`
-        ${posts.map(post => PostItem(post)).join('')}
+        ${posts.map((post, index) => PostItem(post, index)).join('')}
     `);
 }
 export default PostList;

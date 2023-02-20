@@ -1,6 +1,6 @@
-import NavigationSidebar from "../NavigationSidebar/index.js";
-import PostSummaryList from "../PostSummaryList/index.js";
-import PostList from "../PostList/index.js";
+import NavigationSidebar from "../NavigationSidebar";
+import PostSummaryList from "../PostSummaryList";
+import HomeComponent from "../HomeComponent";
 
 const homeComponent = () => {
     const $homeDiv = $("#wd-home");
@@ -10,7 +10,7 @@ const homeComponent = () => {
                 ${NavigationSidebar('home')}
             </div>
             <div class="col-10 col-lg-7 col-xl-6">
-                ${PostList()}        
+                ${HomeComponent()}        
             </div>
             <div class="d-none d-lg-block col-lg-4">
                 ${PostSummaryList()}   

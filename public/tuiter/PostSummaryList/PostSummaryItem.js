@@ -10,7 +10,7 @@ const PostSummaryItem = (post) => {
                     <div class="fw-bold">
                         ${post.userName}
                         ${post.userVerified ? `<i class="fa fa-check-circle"></i>` : ""}
-                        <span class="fw-normal text-secondary">
+                        <span class="fw-normal text-secondary ps-1">
                         - ${post.time}
                         </span>
                     </div>

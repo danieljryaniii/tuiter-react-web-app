@@ -5,6 +5,19 @@
     --wd-border-dark-gray: rgb(47, 51, 54);
 }
 
+.card {
+    background-color: revert;
+    border: solid;
+    border-width: 1px;
+    border-radius: 20px;
+}
+
+.card .card-img-top {
+    border-radius: 20px 20px 0 0;
+    border: solid;
+    border: 5px;
+}
+
 .wd-post-links a {
     text-decoration: none;
 }
