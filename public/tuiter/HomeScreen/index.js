@@ -1,6 +1,6 @@
-import NavigationSidebar from "../NavigationSidebar";
-import PostSummaryList from "../PostSummaryList";
-import HomeComponent from "../HomeComponent";
+import NavigationSidebar from "../NavigationSidebar/index.js";
+import PostSummaryList from "../PostSummaryList/index.js";
+import HomeComponent from "../HomeComponent/index.js";
 
 const homeComponent = () => {
     const $homeDiv = $("#wd-home");
