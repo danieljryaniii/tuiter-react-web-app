@@ -1,0 +1,93 @@
+:root {
+    --wd-dark-gray: rgb(47, 51, 54);
+    --wd-dim-gray: rgb(110, 118, 125);
+    --wd-tuit-blue: rgb(29, 161, 242);
+    --wd-border-dark-gray: rgb(47, 51, 54);
+}
+
+img {
+    width: 100%;
+}
+
+.wd-text-tuit-blue {
+    color: var(--wd-tuit-blue);
+}
+
+.wd-text-dark-gray {
+    color: var(--wd-dark-gray);
+}
+
+.wd-avatar-image {
+    width: 48px;
+    height: 48px;
+}
+
+.wd-img-circle {
+    border-radius: 50%;
+}
+
+.wd-content-image {
+    width: 85px;
+    height: 85px;
+    border-radius: 15px;
+}
+
+/* --------------------------------------------------- */
+/* Overrides for the search bar                        */
+/* --------------------------------------------------- */
+.search-bar-input > .input-group >.input-group-text {
+    border: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 2.5rem;
+}
+
+.search-bar-input > .input-group > .form-control {
+    border: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: none;
+    height: 2.5rem;
+}
+
+.search-bar-input {
+    border: solid 1px lightgray;
+    border-radius: 20px;
+}
+
+.search-bar-input:focus-within {
+    box-shadow: 0 0 0 0.10rem var(--wd-tuit-blue);
+    border-radius: 20px;
+}
+
+/* --------------------------------------------------- */
+/* Overrides for icon stacking                         */
+/* --------------------------------------------------- */
+.fa-stack {
+    width: 1em;
+    height: 1em;
+    line-height: 1em;
+}
+
+.fa-stack-2x {
+    font-size: 1em;
+}
+
+/* --------------------------------------------------- */
+/* Overrides for card and overlay                      */
+/* --------------------------------------------------- */
+.card-img-overlay {
+    border: 0px;
+}
+
+.feature-photo > .card {
+    border: 0px;
+}
+
+.feature-photo > .card > .card-img {
+    border-radius: 0%;
+}
+
+.feature-photo > .card > .card-img-overlay {
+    top: unset;
+}

@@ -1,0 +1,11 @@
+[
+  {"name" :  "labs",              "icon" :  "fa-solid fa-flask",               "secondaryIcon": null},
+  {"name" :  "home",              "icon" :  "fa-solid fa-house-chimney",       "secondaryIcon": null},
+  {"name" :  "explore",           "icon" :  "fa-solid fa-hashtag",             "secondaryIcon": null},
+  {"name" :  "notifications",     "icon" :  "fa-solid fa-bell",                "secondaryIcon": null},
+  {"name" :  "messages",          "icon" :  "fa-solid fa-envelope",            "secondaryIcon": null},
+  {"name" :  "bookmarks",         "icon" :  "fa-solid fa-bookmark",            "secondaryIcon": null},
+  {"name" :  "lists",             "icon" :  "fa-solid fa-list",                "secondaryIcon": null},
+  {"name" :  "profile",           "icon" :  "fa-solid fa-user",                "secondaryIcon": null},
+  {"name" :  "more",              "icon" :  "fa-solid fa-circle fa-stack-2x",  "secondaryIcon": "fa-solid fa-ellipsis fa-stack-1x fa-inverse"}
+]

@@ -3,7 +3,7 @@ import Nav from "../nav";
 function Labs() {
     return (
       <div>
-          <Nav />
+          <Nav active={'lab'}/>
           <Assignment6 />
       </div>
     );
