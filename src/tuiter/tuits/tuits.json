@@ -1,0 +1,30 @@
+[
+  {
+    "_id": 1,
+    "topic": "Space",
+    "userName": "SpaceX",
+    "handle": "nytimes",
+    "avatarIcon": "spacex.jpeg",
+    "verified": true,
+    "time": "23h",
+    "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars",
+    "liked": true,
+    "replies": 4200,
+    "retuits": 2500,
+    "likes": 37500
+  },
+  {
+    "_id": 2,
+    "topic": "Space",
+    "userName": "SpaceX",
+    "handle": "nytimes",
+    "avatarIcon": "spacex.jpeg",
+    "verified": true,
+    "time": "23h",
+    "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars",
+    "liked": false,
+    "replies": 4200,
+    "retuits": 2500,
+    "likes": 37500
+  }
+]
