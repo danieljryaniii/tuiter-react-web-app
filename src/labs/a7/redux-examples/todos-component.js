@@ -46,7 +46,7 @@ const Todos = () => {
                 </li>
                 {
                     todos.map((todo, index) =>
-                        <li className={'list-group-item'}>
+                        <li className={'list-group-item'} key={index}>
                             <button onClick={() => deleteTodoClickHandler(index)}
                                     className={'btn btn-danger float-end ms-2'}>
                                 Delete
