@@ -1,16 +1,16 @@
 import {createSlice} from "@reduxjs/toolkit";
 
 const _initialState = {
-    firstName: 'Jose',
-    lastName: 'Annunziato',
-    handle: '@jannunzi',
-    profilePicture: 'jose.png',
-    bannerPicture: 'polyglot.png',
-    bio: 'Faculty, Software Engineer, AI, Space, and renewable enthusiast. Retuits and likes are not endorsements.',
-    website: 'youtube.com/webdevtv',
+    firstName: 'Dan',
+    lastName: 'Ryan',
+    handle: '@dryan',
+    profilePicture: 'profile_picture.jpeg',
+    bannerPicture: 'profile_banner.webp',
+    bio: 'CPA turned Computer Scientist. Currently pursuing an MSCS at Northeastern. Passionate about software development. Recently "hired" to develop a new social networking application named',
+    website: 'youtube.com/danryan',
     location: 'Boston, MA',
-    dateOfBirth: '7/7/1968',
-    dateJoined: '4/2009',
+    dateOfBirth: '07/01/1995',
+    dateJoined: '01/01/2023',
     followingCount: 340,
     followersCount: 223
 }

@@ -1,0 +1,11 @@
+.profile-img {
+    width: 120px;
+    height: 120px;
+    object-fit: unset;
+    left: 20px;
+    bottom: -55px;
+}
+
+.profile-info-margin {
+    margin-top: 65px;
+}

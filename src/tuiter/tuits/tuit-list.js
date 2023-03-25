@@ -1,6 +1,6 @@
 import React from "react";
 import TuitItem from "./tuit-item";
-    import {useSelector} from "react-redux";
+import {useSelector} from "react-redux";
 
     const TuitList = () => {
     const tuits = useSelector(state => state.tuit_feed);
