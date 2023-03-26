@@ -26,9 +26,9 @@ const Profile = () => {
             <div className={'mx-3 mb-2'}>
                 <div className={'row align-items-center'}>
                     <div className={'col-auto pe-2'}>
-                        <button className={'btn border float-left px-3 py-1'}>
+                        <Link to={'/tuiter/home'} className={'btn border float-left px-3 py-1'}>
                             <i className="fa-solid fa-arrow-left"></i>
-                        </button>
+                        </Link>
                     </div>
                     <div className={'col-auto ps-0'}>
                         <div className={'header-primary my-0 py-0'}>{info.firstName} {info.lastName}</div>
@@ -56,7 +56,7 @@ const Profile = () => {
                         <div className={'user-handle my-0 text-secondary py-0'}>{info.handle}</div>
                     </div>
                     <div className={'col-auto'}>
-                        <Link to={'/tuiter/edit-profile'} className={'btn border rounded-pill fw-bold'}>Edit Profile</Link>
+                        <Link to={'/tuiter/profile/edit-profile'} className={'btn border rounded-pill fw-bold'}>Edit Profile</Link>
                     </div>
                 </div>
 
@@ -70,11 +70,11 @@ const Profile = () => {
                     </span>
                     <span className={'me-3'}>
                         <i className="fa-solid fa-cake-candles me-2"></i>
-                        Born {monthNames[parseInt(info.dateOfBirth.slice(0,2)) - 1]} {info.dateOfBirth.slice(6,10)}
+                        Born {monthNames[parseInt(info.dateOfBirth.slice(5,7)) - 1]} {info.dateOfBirth.slice(0,4)}
                     </span>
                     <span className={'me-3'}>
                         <i className="fa-solid fa-calendar me-2"></i>
-                        Joined {monthNames[parseInt(info.dateJoined.slice(0,2)) - 1]} {info.dateJoined.slice(6,10)}
+                        Joined {monthNames[parseInt(info.dateJoined.slice(5,7)) - 1]} {info.dateJoined.slice(0,4)}
                     </span>
                 </div>
                 <div className={'my-3'}>
