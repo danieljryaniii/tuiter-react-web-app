@@ -16,6 +16,9 @@ import {findTuitsThunk} from "../../services/tuit-thunks";
             {
                 loading &&
                 <li className={'list-group-item'}>
+                    <div className="spinner-border" role="status">
+                        <span className="sr-only">Loading...</span>
+                    </div>
                     Loading...
                 </li>
             }
