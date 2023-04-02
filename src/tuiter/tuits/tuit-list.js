@@ -19,7 +19,7 @@ import {findTuitsThunk} from "../../services/tuit-thunks";
                     <div className="spinner-border" role="status">
                         <span className="sr-only">Loading...</span>
                     </div>
-                    Loading...
+                    <span>  Loading...</span>
                 </li>
             }
             {
