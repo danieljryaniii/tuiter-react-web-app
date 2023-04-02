@@ -1,11 +1,15 @@
 import React from "react";
 import {useDispatch} from "react-redux";
-import {likeToggle} from "../reducers/tuit-feed-reducer";
+import {updateTuitThunk} from "../../services/tuit-thunks";
 
 const TuitStats = ({item}) => {
     const dispatch = useDispatch();
-    const handleLikeToggle = (todo) => {
-        dispatch(likeToggle(todo))
+    const handleLikeToggle = (tuit) => {
+        dispatch(updateTuitThunk(
+            {...tuit,
+                likes: tuit.liked ? tuit.likes - 1 : tuit.likes + 1,
+                liked: !tuit.liked
+            }));
     };
 
     return (
